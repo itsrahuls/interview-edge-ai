@@ -1,7 +1,6 @@
 import React from "react";
 
 import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react"; // Import Lucide icons
-import { Link } from "react-router-dom";
 import { Container } from "@/components/container";
 
 interface SocialLinkProps {
@@ -20,24 +19,6 @@ const SocialLink: React.FC<SocialLinkProps> = ({ href, icon, hoverColor }) => {
     >
       {icon}
     </a>
-  );
-};
-
-interface FooterLinkProps {
-  to: string;
-  children: React.ReactNode;
-}
-
-const FooterLink: React.FC<FooterLinkProps> = ({ to, children }) => {
-  return (
-    <li>
-      <Link
-        to={to}
-        className="hover:underline text-white hover:text-gray-200"
-      >
-        {children}
-      </Link>
-    </li>
   );
 };
 
