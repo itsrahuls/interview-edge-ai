@@ -43,9 +43,9 @@ export const Footer = () => {
             </p>
           </div>
           {/* Second Column: Address and Social Media */}
-          <div>
+          <div className="flex flex-col items-center">
             <h3 className="font-bold text-lg mb-4">Contact Us</h3>
-            <p className="mb-4">Burdwan, West Bengal, 713104</p>
+            <p className="mb-4 text-center">Burdwan, West Bengal, 713104</p>
             <div className="flex gap-4">
               <SocialLink
                 href="https://facebook.com"

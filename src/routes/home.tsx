@@ -85,7 +85,7 @@ const HomePage = () => {
             </p>
 
             <Link to={"/generate"} className="w-full">
-              <Button className="w-3/4 bg-blue-700 hover:bg-blue-800 hover:scale-105 transition-transform">
+              <Button className="w-3/4 bg-blue-800 text-white hover:bg-blue-900 hover:scale-105 transition-transform">
                 Generate <Sparkles className="ml-2" />
               </Button>
             </Link>
